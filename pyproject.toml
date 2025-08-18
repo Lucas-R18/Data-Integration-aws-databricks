@@ -6,8 +6,12 @@ authors = [
     {name = "Lucas Rodrigues",email = "lucas.srodrigues1805@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.12"
 dependencies = [
+    "ipykernel (>=6.30.1,<7.0.0)",
+    "databricks-cli (>=0.18.0,<0.19.0)",
+    "databricks-sdk (>=0.63.0,<0.64.0)",
+    "databricks-connect (==15.1.*)"
 ]
 
 [tool.poetry]
