@@ -13,7 +13,10 @@ dependencies = [
     "databricks-sdk (>=0.63.0,<0.64.0)",
     "databricks-connect (==15.1.*)",
     "boto3 (>=1.40.14,<2.0.0)",
-    "python-dotenv (>=1.1.1,<2.0.0)"
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "polars (>=1.33.1,<2.0.0)",
+    "pyarrow (>=21.0.0,<22.0.0)"
 ]
 
 [tool.poetry]
